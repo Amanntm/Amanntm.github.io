@@ -1,0 +1,46 @@
+@import 'vars';
+.btn{
+    padding: 12px 26px;
+    font-size: 14px;
+    border-radius: 4px;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.blue-btn{
+    background-color: $blue-button;
+    color: $white;
+    border: 1px solid $blue-button;
+    &:hover{
+            background: $white;
+            color: $blue-button;
+            border: 1px solid $blue-button;
+    }
+}
+
+.light-blue-btn {
+    background-color:$white ;
+    color:$blue-button ;
+    border: 1px solid $blue-button;
+
+    &:hover {
+        background: $blue-button;
+        color: $white ;
+        border: 1px solid transparent;
+    }
+}
+
+
+.white-btn{
+        background:none ;
+        color: $white;
+        border: 1px solid $white;
+    
+        &:hover {
+            background: $white;
+            color: $blue-button;
+            border: 1px solid transparent;
+        }
+}

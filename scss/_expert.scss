@@ -1,0 +1,58 @@
+@import 'vars';
+
+
+.expert{
+        position: relative;
+        padding-top: 120px;
+        padding-bottom: 120px;
+
+        &__thumb{
+            
+            overflow: hidden;
+            img{
+                transition: all .3s;
+            }
+        }
+        &__item{
+            &:hover{
+                .expert__thumb{
+                    img{
+                        transform: scale(1.03);
+                    }
+                }
+                .expert__name {
+                        background: $blue-button;
+                        h3{
+                            color: $white;
+                        }
+                        span{
+                            color: $white;
+                        }
+                    }
+            }
+        }
+
+    &__title{
+            font-size: 36px;
+            font-weight: 500;
+            color: $text-black;
+    }
+    &__name{
+            transition: 0.3s;
+            background: $gray-area;
+            padding-top: 16px;
+            padding-bottom: 18px;
+    }
+    h3{
+            text-align: center;
+            font-size: 20px;
+            font-weight: 500;
+            margin-bottom: 1px;
+    }
+   span{
+            display: block;
+            text-align: center;
+            color: $expert-text;
+            font-size: 13px;
+   }
+}

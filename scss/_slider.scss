@@ -1,0 +1,31 @@
+@import 'vars';
+
+
+.slider{
+    &__item{
+    height: 700px;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    }
+    &__title{
+        font-size: 70px;
+        font-weight: 700;
+        color: $text-black;
+        text-transform: capitalize;
+        letter-spacing: 2px;
+    }
+    &__sub-title{
+        font-weight: 300;
+    }
+    &__desc{
+    font-size: 18px;
+    font-weight: 400;
+    color: $menu-link-color;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    }
+       
+}

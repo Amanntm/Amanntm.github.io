@@ -1,0 +1,85 @@
+@import 'vars';
+
+.footer{
+        padding-top: 145px;
+
+        background: $text-black;
+        &__menu{
+            li{
+                a{
+                        font-size: 16px;
+                        color: #BABABA;
+                        line-height: 42px;
+                        text-decoration: none;
+                        &:hover{
+                            color: $blue-link;
+                        }
+                }
+            }
+        }
+        &__logo{
+            padding-bottom: 30px;
+        }
+        &__section{
+            h3 {
+                    font-size: 22px;
+                    font-weight: 400;
+                    color: #fff;
+                    text-transform: capitalize;
+                    margin-bottom: 40px;
+                }
+            p{
+                color:$icon-color ;
+            }
+        }
+        &__in{
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+          
+        }
+        &__menu-wrapper{
+            display: flex;
+            gap: 50px;
+        }
+    
+        &__social-link{
+            padding-top: 30px;
+            display: flex;
+            a {
+                    font-size: 16px;
+                    color: #BABABA;
+                    width: 50px;
+                    height: 50px;
+                    display: inline-block;
+                    text-align: center;
+                    background: #707070;
+                    border-radius: 4px;
+                    line-height: 50px !important;
+                    margin-right: 7px;
+                    text-decoration: none;
+                    &:hover{
+                        color: $gray-area;
+                    }
+                }
+            
+        }
+        &__copuright{
+                height: 85px;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                background: #000000;
+                margin-top: 50px;
+                p{
+                    font-size: 16px;
+                        color: #919191;
+                        margin-bottom: 0;
+                        font-weight: 400;
+                }
+                a{
+                    color: $blue-link;
+                    text-decoration: none;
+                }
+        }
+}

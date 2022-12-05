@@ -1,0 +1,98 @@
+@import 'vars';
+
+.deportament{
+        background: $gray-area;
+        padding-top: 120px;
+        padding-bottom: 90px;
+
+        &__in{
+
+        }
+       
+        &__title {
+            text-align: center;
+                font-size: 36px;
+                font-weight: 500;
+                line-height: 48px;
+                color: $text-black;
+                position: relative;
+                z-index: 9;
+                padding-bottom: 15px;
+                &::before{
+                    position: absolute;
+                        left: 0;
+                        background: $blue-link;
+                        height: 2px;
+                        width: 50px;
+                        content: '';
+                        left: 50%;
+                        transform: translateX(-50%);
+                        bottom: 0;
+                }
+        }
+
+        &__subtitle {
+                text-align: center;
+                font-size: 16px;
+                color: $menu-link-color;
+                line-height: 28px;
+                margin-bottom: 0;
+                margin-bottom: 55px;
+        }
+
+        &__list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: center;
+        }
+
+        &__item {
+                max-width: 350px;
+                background: $white;
+                margin-bottom: 30px;
+                box-shadow: 0 6px 10px #0000000a;
+                &:hover{
+                    img{
+                        transform: scale(1.2);
+                    }
+                }
+        }
+
+        &__thumb {
+            overflow: hidden;
+                border-top-right-radius: 5px;
+                border-top-left-radius: 5px;
+            img{
+                width: 100%;
+                transition: 0.3s;
+            }
+        }
+
+        &__content {
+               
+                padding: 22px 30px 24px 30px;
+            h3{
+                    font-size: 22px;
+                    color: $text-black;
+                    line-height: 33px;
+                    font-weight: 500;
+            }
+            p{
+                    font-size: 16px;
+                    line-height: 28px;
+                    color: $menu-link-color;
+                    margin-top: 5px;
+                    margin-bottom: 10px;
+            }
+            a{
+                    text-decoration: none;
+                    color: $blue-link;
+                    font-size: 16px;
+                    &:hover{
+                        text-decoration: underline;
+                    }
+            }
+        }
+           
+}

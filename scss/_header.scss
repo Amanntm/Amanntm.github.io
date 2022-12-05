@@ -1,0 +1,126 @@
+@import 'vars';
+
+.header{
+
+    .top-line{
+        display: flex;
+        justify-content: space-between;
+    }
+    .main{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .nav {
+            ul{
+                display: flex;
+                li{
+                    padding: 0 10px;
+                    position: relative;
+                    a{
+                        transition: color .5s;
+                        color: $menu-link-color;
+                        font-size: 15px;
+                        font-weight: 500;
+                        text-decoration: none;
+                        &:hover{
+                            color: black;
+                        }
+                        i{
+                            font-size: 9px;
+                        }
+                    }
+
+                .submenu {
+                        display: block;
+                        position: absolute;
+                        left: 0;
+                        top: 150%;
+                        background: #fff;
+                        width: 200px;
+                        z-index: 2;
+                        box-shadow: 0 0 10px #00000005;
+                        opacity: 0;
+                        visibility: hidden;
+                        text-align: left;
+                        transition: .3s;
+                        li{
+                            padding: 5px 10px;
+                        }
+                }
+                &:hover{
+                    .submenu{
+                            opacity: 1;
+                            visibility: visible;
+                            top: 150%;
+                    }
+                }
+                }
+            }
+              
+            }
+
+          
+    }
+
+    &__top-line{
+        padding: 12px 0;
+        background-color: $top-line-color;
+
+    }
+    &__social-link {
+        a{
+            color: $icon-color;
+            text-decoration: none;
+            margin-right: 12px;
+            font-size: 15px;
+            &:hover{
+                color: $blue-link;
+            }
+        }
+        
+    }
+
+    &__main{
+        padding: 18px 0;
+        background-color: $white;
+    }
+
+    &__contacts{
+        display: flex;
+        
+        .email{
+            i{
+                color: $blue-link;
+                margin-right: 7px;
+            }
+            text-decoration: none;
+            color: $icon-color;
+        }
+        .phone{
+            padding-left: 40px;
+            i {
+                color: $blue-link;
+                margin-right: 7px;
+            }
+            text-decoration: none;
+            color: $icon-color;
+        }
+    }
+    
+    .sticky{
+
+        position: fixed;
+        width: 100%;
+        top: -70px;
+        left: 0;
+        right: 0;
+        z-index: 99;
+        transform: translateY(70px);
+        transition: transform 500ms ease, background 500ms ease;
+        -webkit-transition: transform 500ms ease, background 500ms ease;
+        box-shadow: 0px 3px 16px 0px #0000001a;
+        background: rgba(255, 255, 255, 0.96);
+
+    }
+
+}
