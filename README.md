@@ -2,13 +2,13 @@
 Шаблон сайт визитка медицинская организация medSite
 
 JS:
-- [ ] jquery-1.12.4
-- [ ] jquery.magnific-popup
-- [ ] jquery.slicknav
-- [ ] owl.carousel
+- [x] jquery-1.12.4
+- [x] jquery.magnific-popup
+- [x] jquery.slicknav
+- [x] owl.carousel
 
 CSS
-- [ ] SCSS
-- [ ] БЭМ
+- [x] SCSS
+- [x] БЭМ
 
 This site was built using [Pages](https://yunalive.ru/).
