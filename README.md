@@ -1,5 +1,7 @@
 # medSite
-Шаблон сайт визитка медицинская организация medSite
+#Верстка
+
+Шаблон сайта визитки медицинской организации medSite
 
 JS:
 - [x] jquery-1.12.4
@@ -11,4 +13,4 @@ CSS
 - [x] SCSS
 - [x] БЭМ
 
-This site was built using [Pages](https://yunalive.ru/).
+[My Blog](https://yunalive.ru/)
