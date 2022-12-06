@@ -1,13 +1,10 @@
 @import 'vars';
 
-
 .expert{
         position: relative;
         padding-top: 120px;
         padding-bottom: 120px;
-
         &__thumb{
-            
             overflow: hidden;
             img{
                 transition: all .3s;
@@ -31,7 +28,6 @@
                     }
             }
         }
-
     &__title{
             font-size: 36px;
             font-weight: 500;

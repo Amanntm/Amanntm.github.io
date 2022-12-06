@@ -16,20 +16,16 @@
         }
     }
     &__title{
-            font-size: 26px;
-            font-weight: 500;
-            color: $white;
+        font-size: 26px;
+        font-weight: 500;
+        color: $white;
     }
     &__desc{
-            font-size: 16px;
-            font-weight: 400;
-            line-height: 28px;
-            color: $white;
-            margin-top: 10px;
-            margin-bottom: 26px;
-    }
-
-    &__service-item{
-        
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        color: $white;
+        margin-top: 10px;
+        margin-bottom: 26px;
     }
 }

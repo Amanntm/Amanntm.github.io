@@ -1,7 +1,5 @@
 @import 'vars';
 
-
-
 .popup{
         position: absolute;
         background: #FFF;
@@ -12,23 +10,23 @@
         left: 50%;
         transform: translate(-50%, -50%);
         h3{
-                text-align: center;
-                font-size: 22px;
-                color: $blue-link;
-                margin-bottom: 46px;
+            text-align: center;
+            font-size: 22px;
+            color: $blue-link;
+            margin-bottom: 46px;
         }
         &__name{
             display: flex;
             flex: 0 0 50%;
             gap: 20px;
         }
-    &__name,&__email{
+    &__name, &__email{
         input{
-                width: 100%;
-                height: 50px;
-                border: 1px solid #ddd;
-                padding: 15px;
-                margin-bottom: 20px;
+            width: 100%;
+            height: 50px;
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-bottom: 20px;
         }    
     }
 }

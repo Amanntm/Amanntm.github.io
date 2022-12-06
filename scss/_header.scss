@@ -1,7 +1,6 @@
 @import 'vars';
 
 .header{
-
     .top-line{
         display: flex;
         justify-content: space-between;
@@ -30,23 +29,23 @@
                         }
                     }
 
-                .submenu {
-                        display: block;
-                        position: absolute;
-                        left: 0;
-                        top: 150%;
-                        background: #fff;
-                        width: 200px;
-                        z-index: 2;
-                        box-shadow: 0 0 10px #00000005;
-                        opacity: 0;
-                        visibility: hidden;
-                        text-align: left;
-                        transition: .3s;
-                        li{
-                            padding: 5px 10px;
-                        }
-                }
+                    .submenu {
+                            display: block;
+                            position: absolute;
+                            left: 0;
+                            top: 150%;
+                            background: #fff;
+                            width: 200px;
+                            z-index: 2;
+                            box-shadow: 0 0 10px #00000005;
+                            opacity: 0;
+                            visibility: hidden;
+                            text-align: left;
+                            transition: .3s;
+                            li{
+                                padding: 5px 10px;
+                            }
+                    }
                 &:hover{
                     .submenu{
                             opacity: 1;
@@ -55,17 +54,12 @@
                     }
                 }
                 }
-            }
-              
-            }
-
-          
+            } 
+            }  
     }
-
     &__top-line{
         padding: 12px 0;
         background-color: $top-line-color;
-
     }
     &__social-link {
         a{
@@ -79,15 +73,12 @@
         }
         
     }
-
     &__main{
         padding: 18px 0;
         background-color: $white;
     }
-
     &__contacts{
         display: flex;
-        
         .email{
             i{
                 color: $blue-link;
@@ -106,9 +97,7 @@
             color: $icon-color;
         }
     }
-    
     .sticky{
-
         position: fixed;
         width: 100%;
         top: -70px;
@@ -120,7 +109,5 @@
         -webkit-transition: transform 500ms ease, background 500ms ease;
         box-shadow: 0px 3px 16px 0px #0000001a;
         background: rgba(255, 255, 255, 0.96);
-
     }
-
 }
